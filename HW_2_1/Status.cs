@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_2_1
 {
-    internal class Class2
+    internal class Status
     {
     }
 }

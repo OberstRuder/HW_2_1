@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HW_2_1
 {
-    internal class Class1
+    internal static class Starter
     {
+
     }
 }
