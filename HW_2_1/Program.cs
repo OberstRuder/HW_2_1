@@ -5,6 +5,10 @@
     {
         private static void Main()
         {
+            Starter.Run();
+
+            Logger.Get().LogLevel = LogStatus.Info;
+            Logger.Get().Output();
 
         }
     }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace HW_2_1
 {
-    internal class Status
+    internal enum LogStatus
     {
+        Error,
+        Info,
+        Warning
     }
 }
