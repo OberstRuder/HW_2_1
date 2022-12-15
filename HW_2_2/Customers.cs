@@ -8,7 +8,7 @@ namespace HW_2_2
 {
     internal class Customers
     {
-        public static string _costumer;
+        private static string _costumer;
         
         public static void NewCustomer() 
         {
@@ -30,6 +30,11 @@ namespace HW_2_2
                 Console.WriteLine("Error, too many words");
                 NewCustomer();
             }
+        }
+
+        public static void Print()
+        {
+            Console.WriteLine(_costumer);
         }
 
 

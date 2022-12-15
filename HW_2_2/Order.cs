@@ -15,7 +15,7 @@ namespace HW_2_2
             Console.WriteLine("Order number: " + OrderNumber());
             Cart.CartReader();
             Console.WriteLine("Buyer information:");
-            Console.WriteLine(Customers._costumer);
+            Customers.Print();
 
         }
 
